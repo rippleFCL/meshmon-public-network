@@ -1,0 +1,10 @@
+network_id: meshmon-public-network
+node_config:
+  - node_id: ripple
+    poll_rate: 30
+    retry: 2
+    url: https://meshmon.ripplefcl.com
+
+node_version:
+  - ">=3.1.0"
+  - "<4.0.0"
